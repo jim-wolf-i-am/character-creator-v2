@@ -10,7 +10,11 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
-  max-width: 50%;;
+  max-width: 50%;
+
+    @media screen and (max-width: 767px) {
+      max-width: fit-content;
+    }
 }
 
 .title {

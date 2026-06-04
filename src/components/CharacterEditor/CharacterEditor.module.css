@@ -1,11 +1,9 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
-  
 }
 
 .maxWidthWrapper {
-  
 }
 
 .header {
@@ -26,32 +24,26 @@
 }
 
 .characterWrapper {
-    border-bottom: 40vh solid hsl(195deg, 20%, 86%);
-      position: fixed;
+  border-bottom: 40vh solid hsl(195deg, 20%, 86%);
+  position: fixed;
   /* top: 120px; */
   bottom: 0;
   right: 0;
   width: 100%;
   min-height: 500px;
 
-    @media screen and (max-width: 767px) {
-width: 100vw;
-top: 0;
-bottom: unset;
-left: 0;
+  @media screen and (max-width: 767px) {
+    width: 100vw;
+    top: 0;
+    bottom: unset;
+    left: 0;
   }
-
 }
 
 .controlColumn {
-    @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     display: flex;
-    position: fixed;
-
-    width: fit-content;
     overflow: scroll;
-    /* left: 0; */
-    isolation: isolate;
+    overscroll-behavior: contain;
   }
-
 }
